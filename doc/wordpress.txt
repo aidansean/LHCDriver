@@ -1,0 +1,22 @@
+[mathjax]
+
+I wanted to make a "steady hand" game and realised I could make one based on the beams of the LHC.  In this game the player(s) have to control magnets in the \(x\) and \(y\) directions to keep the beams on target.  This eventually lead on to the Science Shift Simulator games.
+
+<h3>Links</h3>
+
+<a href="http://www.aidansean.com/LHCDriver/">Live page</a>
+<a href="https://github.com/aidansean/LHCDriver">GitHub repository</a>
+
+<h3>Overview</h3>
+
+Both beams have a random walk that moves them around the canvas.  The player(s) can affect the forces that act on the beam(s) in the \(x\) and \(y\) directions and have to keep the beams within the valid range of the canvas.  If the beams are close to each other then the instantaneous luminosity increases, and the integrated luminosity is a measure of the score.  When the beams get dumped there is the customary toilet flush!
+
+<h3>Challenges</h3>
+<dl>
+<dt><em>Challenge</em>: I had to make sliders to control the forces.</dt>
+
+<dd><em>Solution</em>: This is the first time I made some sliders (that I would later reuse in the <a href="http://aidansean.com/projects/?p=355">Mandelbrot</a> project) and it was trickier than I thought it would be.  The event listeners need to keep track of all mouse and keyboard actions to use the slides properly and intuitively. (Resolved.)</dd>
+<dt><em>Challenge</em>: This was the first two player game I made.</dt>
+
+<dd><em>Solution</em>: Making a game that two players can play is a bit tricky, since their controls cannot be allowed to interfere with each other.  This was achieved by moving both with the keyboard. (Resolved.)</dd>
+</dl>

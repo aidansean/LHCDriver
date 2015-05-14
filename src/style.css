@@ -1,0 +1,67 @@
+canvas{
+  border : 1px solid black ;
+}
+p#p_current_status, p#p_lumi{
+  font : 16pt arial ;
+  text-align : center ;
+  margin : 0px ;
+  width : 100% ;
+  padding-top : 0.5em ;
+  padding-bottom : 0.5em ;
+}
+p.ready{
+  border : 2px solid #dddd00 ;
+  background : #ffffdd ;
+}
+p.stableBeams{
+  border : 2px solid green ;
+  background : #ddffdd ;
+}
+p.beamDump{
+  border : 2px solid red ;
+  background : #ffcccc ;
+}
+div.tab     {
+  display : table ;
+  width : 100% ;
+}
+div.tab_row {
+  display : table-row  ;
+  width : 100% ;
+}
+div.tab_cell{
+  display : table-cell ;
+  vertical-align : top ;
+  text-align : center ;
+  padding : 0px ;
+}
+div#div_tab_cell_beam{
+  width : 490px ;
+}
+div#div_tab_cell_stats{
+  width : 210px ;
+}
+
+
+p#p_lumi{
+  border : 2px solid #0000ff ;
+  background : #ddddff ;
+}
+
+input.playerButton{
+  width : 50px ;
+  height : 50px ;
+  font : 24pt arial ;
+}
+h2{
+  font : 16pt arial ;
+  margin-bottom : 0.1em ;
+}
+
+input.nPlayersSelected{
+  color : black ;
+}
+input.nPlayersNotSelected{
+  color : white ;
+}
+
